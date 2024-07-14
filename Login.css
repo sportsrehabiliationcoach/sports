@@ -1,0 +1,129 @@
+.login-page{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background:url("https://images.unsplash.com/photo-1530176928500-2372a88e00b5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    position:relative;
+    overflow: hidden;
+}
+.login{
+    position: relative;
+    width: 300px;
+    height: 330px;
+    padding: 40px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgb(225, 63, 228);
+    border-radius: 5px;
+    align-items: center;
+    background:url('https://media.istockphoto.com/id/864950270/photo/defocused-serenity-blurred-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=u_5hJ-QWcydT3fdG-78XFGt1t3RhZaTS7Qqw_A-rkm0=')
+}
+
+.form-inner{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width:100%;
+
+}
+
+.input{
+display: block;
+padding: 15px 15px;
+width: calc(100% - 30px);  
+left: 50%;
+border-radius: 10px;
+align-items:center;
+justify-content: center;
+margin-top: 20px;
+border: 1.5px solid rgb(109, 87, 121);
+outline: none;
+background: #cec9dd;
+color: rgb(19, 9, 9);
+    
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.log1 {
+    width: 100px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    
+  }
+
+  .log1:hover{
+    background-color: blueviolet;
+
+  }
+  .log2:hover{
+    background-color: bisque;
+  }
+
+  .log2{
+    width: 100px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family:sans-serif;
+  }
+
+
+
+.forgot{
+    color:white;
+    cursor: pointer;
+    text-decoration:underline;
+    font-family:sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+
+
+.toggle{
+    position:relative;
+    display: inline-block;
+}
+.toggle.password-toggle{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
